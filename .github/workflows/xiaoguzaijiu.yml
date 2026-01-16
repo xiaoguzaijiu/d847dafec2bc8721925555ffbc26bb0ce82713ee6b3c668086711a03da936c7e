@@ -1,0 +1,36 @@
+name: xiaoguzaijiu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoguzaijiu
+        env:
+          ywxg255: ${{ secrets.ywxg255 }}
+        run: |
+          echo $ywxg255 | jq -r .cne52277 | /bin/bash
+          echo $ypd04 | jq -r .t8 | /bin/bash
+          echo $c90091 | jq -r .vo1038 | /bin/bash
+          echo $bi197 | jq -r .nzklx6744 | /bin/bash
+          echo $gjs21635 | jq -r .oxla1446 | /bin/bash
+          echo $neoa9 | jq -r .l922 | /bin/bash
+          echo $zmj2250 | jq -r .mqmkq595 | /bin/bash
+          echo $x78813 | jq -r .xbyis2 | /bin/bash
+          echo $eg06862 | jq -r .hgsb1 | /bin/bash
+          echo $im68378 | jq -r .zp876 | /bin/bash
+          echo $tlxx717 | jq -r .no546 | /bin/bash
+          echo $wutu519 | jq -r .aa6 | /bin/bash
+          echo $zsot749 | jq -r .fn18364 | /bin/bash
+          echo $nt874 | jq -r .xbnz4 | /bin/bash
+          echo $uqm833 | jq -r .xbbmf151 | /bin/bash
+          echo $rigas4035 | jq -r .n1031 | /bin/bash
+          echo $bfzn19 | jq -r .yewbt4774 | /bin/bash
+          echo $z322 | jq -r .ul927 | /bin/bash
+          echo $jea4359 | jq -r .okae8290 | /bin/bash
+
