@@ -2,9 +2,8 @@ name: xiaoguzaijiu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
-
-jobs:  # 13592
+    - cron: '6 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +11,19 @@ jobs:  # 13592
       - uses: actions/checkout@v4
       - name: xiaoguzaijiu
         env:
-          qppoy2: ${{ secrets.qppoy2 }}
+          we6884: ${{ secrets.we6884 }}
         run: |
-          echo $qppoy2 | jq -r .i549 | /bin/bash
-          echo $q9 | jq -r .futc6 | /bin/bash
-          echo $puu301 | jq -r .zf814 | /bin/bash
-          echo $oya24 | jq -r .vitmx26 | /bin/bash
-          echo $ekox32066 | jq -r .c09294 | /bin/bash
-          echo $mlexh73 | jq -r .czzit6 | /bin/bash
-          echo $vr5621 | jq -r .zwv9 | /bin/bash
-          echo $bapuj0703 | jq -r .sbvf13 | /bin/bash
-          echo $zf5 | jq -r .dcx06243 | /bin/bash
-          echo $cwhk7368 | jq -r .hf31758 | /bin/bash
+          echo $we6884 | jq -r .pfmxt41593 | /bin/bash
+          echo $sjiff72 | jq -r .cqw49789 | /bin/bash
+          echo $gl88 | jq -r .uoh774 | /bin/bash
+          echo $cl56923 | jq -r .yggz8 | /bin/bash
+          echo $qalju175 | jq -r .ocivh4 | /bin/bash
+          echo $lkyq9 | jq -r .na35 | /bin/bash
+          echo $dmfi3 | jq -r .n5 | /bin/bash
+          echo $siyc5 | jq -r .jszhf6 | /bin/bash
+          echo $bcuc81 | jq -r .xn72280 | /bin/bash
+          echo $axz0 | jq -r .hbk310 | /bin/bash
+          echo $zqbfh94 | jq -r .lxxde4 | /bin/bash
+          echo $hk3 | jq -r .pwaj54 | /bin/bash
+          echo $gg651 | jq -r .eas7254 | /bin/bash
 
